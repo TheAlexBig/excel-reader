@@ -1,4 +1,4 @@
-// npm start -- --FILE=file.xlsx --SHEET=Sheet1 --COLUMNS=A:M
+// npm start -- --FILE=file.xlsx --SHEET='Sheet1' --COLUMNS=A:M
 import {reader, converter, mapper} from './excel/index.js';
 
 const file = process.argv.find(arg => arg.startsWith('--FILE=')).substring(7);

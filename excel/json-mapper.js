@@ -1,5 +1,5 @@
 const keyMap = {
-    "Código de País": "country _code",
+    "Código de Pais": "country_code",
     "Código de referencia": "reference_code",
     "Institución": "institution",
     "Dependencia": "dependency",
@@ -25,8 +25,6 @@ export default function(jsonData = []) {
     });
     result.push(newData);
   });
-  
-
 
   return result;
 }
