@@ -5,7 +5,6 @@ const file = process.argv.find(arg => arg.startsWith('--FILE=')).substring(7);
 const sheet = process.argv.find(arg => arg.startsWith('--SHEET=')).substring(8);
 const columns = process.argv.find(arg => arg.startsWith('--COLUMNS=')).substring(10);
 
-
 try {
     const csvData = reader(file, sheet, columns);
     const jsonData = await converter(csvData);
