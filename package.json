@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "file-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jose valladares",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "readable-stream": "^4.3.0",
+    "xlsx": "^0.18.5"
+  }
+}
