@@ -1,7 +1,6 @@
 import { keyMap } from '../constants/index.js';
 
 export default function(jsonData = []) {
- 
   const result = [];
   // Use the map method to transform the keys of the data object
   jsonData.forEach((element) => {
