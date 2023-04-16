@@ -1,0 +1,15 @@
+{
+    "Código de Pais": "country_code",
+    "Código de referencia": "reference_code",
+    "Institución": "institution",
+    "Dependencia": "dependency",
+    "Tipo de documento": "document_type",
+    "Título": "title",
+    "Lugar y Fecha": "place_and_date",
+    "Volumen ": "volume",
+    "Productor/ Procedencia": "precedence",
+    "Alcance y contenido": "content",
+    "Lengua": "language",
+    "Características físicas": "physical_characteristics",
+    "Notas": "notes"
+}
